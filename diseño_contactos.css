@@ -1,0 +1,302 @@
+body {
+    background-color: rgb(31, 115, 174);
+}
+h1{
+    color:  rgb(12, 164, 133);
+    font-size: 30px;    
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    color: rgb(39, 41, 41);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(243, 238, 236, 0.58);
+    font-family: Arial;
+}
+/* Estilos del menú */
+    .menu {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgb(0, 149, 255);
+      border-radius: 5px;
+      overflow: visible;
+    }
+
+    .menu button {
+      background-color:rgb(0, 149, 255);
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #576869;
+      min-width: 160px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .menu-content a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #555;
+    }
+
+
+    /* Clase activa para mostrar el menú */
+    .show {
+      display: block;
+    }
+    /* Cuando el checkbox está marcado, se muestra el menú*/ 
+#menu-toggle:checked ~ .menu-content {
+  display: block;
+}
+
+button:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+/*Diseño titulo*/
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#titulo{
+  color: rgba(0, 195, 255, 0.8);
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0; 
+  padding: 10px 5px;
+  background-color: rgb(186, 208, 216); 
+  border-radius: 10px;
+   
+  }
+
+.logo{
+   width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(186, 208, 216);
+}
+/* Diseño del contenedor principal */
+.container {
+  display: flex;              /* activa flexbox */
+  justify-content: center;    /* centra horizontalmente */
+  align-items: flex-start;    /* alinea arriba */
+  gap: 40px;                  /* espacio entre columnas */
+  margin-top: 100px;          /* espacio debajo del menú */
+  padding: 20px;
+}
+
+
+  .contacto {
+    flex: 1;
+    max-width: 300px;
+    background: #e6f2ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+/* Formulario centrado */
+  .formulario {
+    flex: 2;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    }
+
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .formulario input[type="submit"],
+  .formulario input[type="reset"] {
+    width: auto;
+    background: #006699;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  .formulario input[type="submit"]:hover,
+  .formulario input[type="reset"]:hover {
+    background: blue;
+  }
+/* Formulario centrado */
+  .formulario {
+    flex: 2;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    }
+
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .formulario input[type="submit"],
+  .formulario input[type="reset"] {
+    width: auto;
+    background: #006699;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  .formulario input[type="submit"]:hover,
+  .formulario input[type="reset"]:hover {
+    background: blue;
+  }
+
+
+.menu_de_Servicios {
+    flex: 19;
+    max-width: 300px;
+    background: #e6f2ff;
+    padding: 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+
+  }
+  ul {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+  }
+
+  /* Espaciado entre subtitulos */
+  ul li {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    
+  }
+
+  /* Estilo del título*/
+  summary {
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+  }
+
+  /* Cambio de color al pasar el mouse por el título */
+  summary:hover {
+      color: #007bff;
+  }
+
+  /* Estilo del texto oculto que se expande */
+  details p {
+      margin-top: 10px;
+      color: #666;
+      line-height: 2;
+  }
+
+.informacion_desarrollo{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+  h2{
+    color: rgb(39, 41, 41);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(243, 238, 236, 0.58);
+    font-family: Arial;
+    text-align: center;
+  }
+  p{
+          color: #1034e7be;
+          font-size: 20px;
+
+  }
+
+
+
+.btn-pagar {
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(0, 149, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+}
+
+.btn-pagar:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+/* DISEÑO SÓLO PARA LOS LABELS DE ESTE FORMULARIO */
+.formulario-pago label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0bbdef;
+    font-size: 14px;
+    text-transform: uppercase; /* Opcional: hace el texto mayúscula */
+}
+
+/* DISEÑO SÓLO PARA LOS INPUTS DE ESTE FORMULARIO */
+.formulario-pago input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #bce0ff; /* Borde celeste suave */
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #333333;
+    box-sizing: border-box; /* Evita que el input se desarme con el padding */
+    transition: border-color 0.3s ease; /* Animación suave al hacer clic */
+}
+
+/* EFECTO CUANDO EL USUARIO HACE CLIC EN EL INPUT */
+.formulario-pago input:focus {
+    border-color: #007bff; /* Cambia a azul brillante */
+    outline: none; /* Quita el borde negro por defecto del navegador */
+    background-color: #f7fbff; /* Se aclara sutilmente */
+}

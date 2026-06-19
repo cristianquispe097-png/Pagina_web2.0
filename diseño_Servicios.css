@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(31, 115, 174);
+}
+h1{
+    color:  rgb(12, 164, 133);
+    font-size: 30px;    
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    color: rgb(39, 41, 41);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(243, 238, 236, 0.58);
+    font-family: Arial;
+}
+/* Estilos del menú */
+    .menu {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgb(0, 149, 255);
+      border-radius: 5px;
+      overflow: visible;
+    }
+
+    .menu button {
+      background-color:rgb(0, 149, 255);
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #576869;
+      min-width: 160px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .menu-content a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu-content a:hover {
+      background-color: #555;
+    }
+
+
+    /* Clase activa para mostrar el menú */
+    .show {
+      display: block;
+    }
+    /* Cuando el checkbox está marcado, se muestra el menú 
+#menu-toggle:checked ~ .menu-content {
+  display: block;
+}*/
+
+button:hover{
+  background-color: blue;
+  color: aliceblue;
+}
